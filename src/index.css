@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Braah+One&family=JetBrains+Mono:wght@200;400;500;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  form label {
+    @apply mt-[10px] block text-[1.3rem];
+  }
+  form input,
+  textarea {
+    @apply w-full mt-[5px] block bg-transparent border-white border-[2px] px-[5px] py-[10px];
+  }
+
+  form button {
+    border: 1px solid var(--colors-borders-veiledspotlight, #cdd6d7);
+    background: var(
+      --colors-action-gradient-red-gradient,
+      linear-gradient(95deg, #fcad02 -36.87%, #ff0041 98.63%)
+    );
+  }
+}
+
+body {
+  background: linear-gradient(115deg, #290049 58.38%, #1d0e49 101.84%);
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.custom-loader {
+  width: 100px;
+  height: 100px;
+  display: grid;
+}
+.custom-loader::before,
+.custom-loader::after {
+  content: "";
+  grid-area: 1/1;
+  --c: radial-gradient(farthest-side, yellow 92%, #0000);
+  background: var(--c) 50% 0, var(--c) 50% 100%, var(--c) 100% 50%,
+    var(--c) 0 50%;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  animation: s2 0.8s infinite;
+}
+.custom-loader::before {
+  margin: 8px;
+  filter: hue-rotate(45deg);
+  background-size: 16px 16px;
+  animation-timing-function: linear;
+}
+
+@keyframes s2 {
+  100% {
+    transform: rotate(0.5turn);
+  }
+}
