@@ -1,8 +1,21 @@
-# React + Vite
+# NFT Marketplace with React and Solidity
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to ArtsOnChain, a decentralized platform for trading unique digital assets. Built with React for the frontend and Solidity for the smart contracts, this marketplace allows users to buy, sell, and explore a world of digital collectibles.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User-Friendly Interface:**
+- **Secure Transactions:**
+- **Wallet Integration:**
+- **Creator Tools:Mint your own NFTs and list them for sale.**
+- **Community and Social Features:**
+
+## Technologies Used
+
+- React
+- Solidity
+- Ethereum
+- Ethers.js
+- Pinata IPFS(InterPlanetary File System)
+
+Happy NFT trading!
