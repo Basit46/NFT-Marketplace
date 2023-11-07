@@ -7,7 +7,7 @@ Welcome to ArtsOnChain, a decentralized platform for trading unique digital asse
 - **User-Friendly Interface:**
 - **Secure Transactions:**
 - **Wallet Integration:**
-- **Creator Tools:Mint your own NFTs and list them for sale.**
+- **Creator Tools:Mint your own NFTs and list & unlist them for sale.**
 
 ## Technologies Used
 
