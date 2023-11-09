@@ -17,4 +17,4 @@ Welcome to ArtsOnChain, a decentralized platform for trading unique digital asse
 - Ethers.js
 - Pinata IPFS(InterPlanetary File System)
 
-Happy NFT trading!
+Happy NFT minting and trading!
