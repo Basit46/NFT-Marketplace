@@ -42,7 +42,7 @@ const Home = () => {
 
         <div className="flex-1">
           <p className="text-white text-opacity-70 text-lg leading-7">
-            The largest NFT marketplace. Authentic and truly unique
+            The largest NFT Marketplace. Authentic and truly unique
             <br />
             digital creation. Signed and issued by the creator,made
             <br />
