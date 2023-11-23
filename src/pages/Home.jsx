@@ -3,7 +3,6 @@ import arrow from "../assets/arrow.svg";
 import img1 from "../assets/heroImg1.png";
 import img2 from "../assets/heroImg2.gif";
 import img3 from "../assets/heroImg3.png";
-import img from "../assets/heroDgn.png";
 import textImg from "../assets/Group.png";
 import shapePng from "../assets/Subtract.png";
 
@@ -73,14 +72,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <img
-        className="absolute top-[640px] left-[-200px]"
-        height={628}
-        width={628}
-        src={img}
-        alt="img"
-      />
     </div>
   );
 };
