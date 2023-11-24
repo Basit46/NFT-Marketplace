@@ -7,7 +7,7 @@ const Navbar = () => {
   const { userAddress, connectwalletHandler } = useGlobalContext();
 
   return (
-    <nav className="w-full py-[20px] flex justify-between items-center">
+    <nav className="py-[20px] flex justify-between items-center">
       <Link to="/" className="font-Sec text-[2rem]">
         ArtsOnChain
       </Link>

@@ -12,7 +12,7 @@ import NFTpriceModal from "./components/NFTpriceModal";
 
 function App() {
   return (
-    <div className="max-w-[1400px] mx-auto font-JetbrainsMono text-white px-[50px]">
+    <div className="max-w-[1400px] w-full h-[100vh] overflow-y-auto overflow-x-hidden mx-auto font-JetbrainsMono text-white px-[50px]">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

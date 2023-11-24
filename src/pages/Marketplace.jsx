@@ -7,7 +7,9 @@ const Marketplace = () => {
 
   return (
     <div className="py-[40px]">
-      <h1 className="font-Sec text-[7rem] text-center leading-[1]">Artworks</h1>
+      <h1 className="font-Sec text-[5rem] md:text-[7rem] text-center leading-[1]">
+        Artworks
+      </h1>
       <p className="text-center text-[1.3rem]">
         View all artworks as e dey hot 🔥
       </p>

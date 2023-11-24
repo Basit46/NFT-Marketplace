@@ -79,7 +79,7 @@ const CreateNFT = () => {
           <h1 className="text-[1.3rem]">Preview</h1>
           {/* Preview */}
           <div className="w-[280px] h-fit">
-            <div className="w-full h-[270px] bg-gray-300">
+            <div className="w-full h-[270px] bg-gray-400">
               {selectedImg && (
                 <img
                   src={selectedImg}

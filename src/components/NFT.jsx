@@ -67,7 +67,7 @@ const NFT = ({ item }) => {
   };
 
   return (
-    <div className="w-[280px] h-fit">
+    <div className="w-[90%] sm:w-[280px] h-fit">
       <div className="w-full h-[270px]">
         <img
           src={item.img}
