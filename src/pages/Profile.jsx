@@ -40,18 +40,18 @@ const Profile = () => {
 
       <div className="mt-[40px] w-full">
         <div className="w-full">
-          <div className="w-full flex gap-[10px] items-center">
+          <div className="w-full flex flex-col xmd:flex-row gap-[10px] items-center">
             <FaEthereum />
             <p>{userAddress}</p>
             <button
               onClick={() => setUserAddress(null)}
-              className="ml-auto border-white border-[2px] bg-purple-900 text-white px-[20px] py-[8px]"
+              className="xmd:ml-auto border-white border-[2px] bg-purple-900 text-white px-[20px] py-[8px]"
             >
               DISCONNECT WALLET
             </button>
           </div>
 
-          <p className="mt-[5px]">
+          <p className="mt-[15px] xmd:mt-[5px]">
             Items owned: <span>{userNFTs.length}</span>
           </p>
         </div>

@@ -75,7 +75,7 @@ const CreateNFT = () => {
       <h1 className="font-Sec text-[2rem] leading-[1]">Create your NFT</h1>
 
       <div className="mt-[30px] w-full flex gap-[50px]">
-        <div className="">
+        <div className="hidden xl:block">
           <h1 className="text-[1.3rem]">Preview</h1>
           {/* Preview */}
           <div className="w-[280px] h-fit">
@@ -111,9 +111,9 @@ const CreateNFT = () => {
 
         <form
           onSubmit={(e) => handleMint(e)}
-          className="flex-1 flex gap-[20px] "
+          className="flex-1 flex flex-col xmd:flex-row gap-[20px] "
         >
-          <div className="w-[50%]">
+          <div className="w-full xmd:w-[50%]">
             <label>Upload Image</label>
             <div className="relative w-full h-[400px] border-dashed overflow-hidden border-[2px] border-white grid place-items-center">
               {selectedImg && (
